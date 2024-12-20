@@ -1,0 +1,40 @@
+
+  
+  .nav {
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+    padding: 20;
+    box-sizing: border-box;
+    background-color: #25262a;
+    color: #c0c0c0
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    
+
+
+  }
+  
+  .nav-list li {
+    display: inline;
+    text-align: center;
+    margin: 0px 25px 0px 0px;
+
+  }
+  
+  .nav-list a {
+ 
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .nav-list a:hover {
+    color: #f0a500; /* Hover color */
+    border-bottom: 2px solid #f0a500; /* Add a bottom border on hover */
+  }
+
+  

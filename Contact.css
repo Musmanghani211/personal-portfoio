@@ -1,0 +1,134 @@
+.Contactpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .infoBox {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 50%;
+  }
+  
+  .Contactitle {
+    font-size: 24px;
+    color: #333;
+    position: relative;
+  }
+  
+  .Contactitle span {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background: #64f4ab;
+    margin-right: 10px;
+  }
+  
+  .heading {
+    font-size: 36px;
+    color: #555;
+  }
+  
+  .conPra {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.6;
+  }
+  
+  .call {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .phone,
+  .email {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .phone a,
+  .email a {
+    font-size: 24px;
+    color: #64f4ab;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .phonecall h3,
+  .emailcall h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .phonecall p,
+  .emailcall p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .contactPage {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .message {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message input,
+  .message textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .message textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  #conBTN {
+    padding: 10px 20px;
+    background: #64f4ab;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #conBTN:hover {
+    background: #50d08f;
+  }
+  
+  #statusMessage {
+    display: none; /* Will show dynamically with JS */
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .Contactpage {
+      flex-direction: column;
+    }
+  
+    .infoBox,
+    .contactPage {
+      max-width: 100%;
+    }
+  
+    .infoBox {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,130 @@
+.Contactpage {
+    background-color: #2d2e32;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.conPra {
+    color: #ecf2fd;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#conBTN {
+    position: relative;
+    top: -20px;
+}
+
+.infoBox {
+    margin-top: 15%;
+    padding: 0 5%;
+}
+
+.Contactitle {
+    color: #64f4ab;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.personal {
+    width: 40%;
+}
+
+.call {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.phone {
+    display: flex;
+    width: 300px;
+}
+
+.email {
+    display: flex;
+    width: 200px;
+}
+
+.contactPage {
+    margin-top: 15%;
+    padding: 0 5%;
+}
+
+ion-icon {
+    background-color: #25262a;
+    color: #64f4ab;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 15px;
+    transition: all 1s;
+}
+
+ion-icon:hover {
+    color: #ffbe22;
+    border: 1px solid #ffbe22;
+}
+
+.phonecall,
+.emailcall {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phonecall p,
+.emailcall p {
+    color: #ecf2fd;
+    font-size: 12px;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #64f4ab;
+    border-radius: 10px;
+    background-color: #2d2e32;
+    margin-bottom: 10px;
+    color: #64f4ab;
+    margin-left: 5px;
+}
+
+::placeholder {
+    color: white;
+}
+
+textarea {
+    margin-left: 5px;
+    outline: none;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    background-color: #2d2e32;
+    border: 1px solid #64f4ab;
+    border-radius: 10px;
+    color: #64f4ab;
+}
+
+#conBTN {
+    margin: 30px 0;
+}
+
+@media screen and (max-width: 420px) {
+    textarea {
+        width: 350px;
+    }
+    .Contactpage {
+        grid-template-columns: 1fr;
+    }
+    input {
+        width: 160px;
+    }
+    textarea {
+        width: 320px;
+    }
+}
