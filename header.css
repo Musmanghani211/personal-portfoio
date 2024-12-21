@@ -21,7 +21,8 @@
     display: inline;
     text-align: center;
     margin: 0px 25px 0px 0px;
-
+    background-color: #061b2c; 
+    padding: 10px;
   }
   
   .nav-list a {
@@ -46,11 +47,20 @@
     }
 
     .nav-list li {
-        margin: 0 10px; /* Reduce margin between items */
+        margin: 0 10px;
+        background-color: #061b2c; 
+        padding: 4px;
+        
+        
     }
 
     .nav-list a {
         font-size: 14px;
         text-align: center; /* Decrease font size for smaller screens */
     }
+    #circleimg {
+      position: relative;
+      top: -121px;
+      height: 607px;
+  }
 }
