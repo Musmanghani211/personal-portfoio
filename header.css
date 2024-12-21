@@ -37,4 +37,19 @@
     border-bottom: 2px solid #f0a500; /* Add a bottom border on hover */
   }
 
-  
+  @media only screen and (max-width: 420px) {
+    .nav-list {
+        display: flex;
+         /* Center the items horizontally */
+        padding: 0;
+    }
+
+    .nav-list li {
+        margin: 0 10px; /* Reduce margin between items */
+    }
+
+    .nav-list a {
+        font-size: 12px;
+        text-align: center; /* Decrease font size for smaller screens */
+    }
+}
