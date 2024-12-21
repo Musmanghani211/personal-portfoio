@@ -60,7 +60,7 @@
     }
     #circleimg {
       position: relative;
-      top: -121px;
-      height: 607px;
+      margin: 12px -4px -7px 9px;
+      height: 400px;
   }
 }
