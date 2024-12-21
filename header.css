@@ -41,7 +41,8 @@
     .nav-list {
         display: flex;
          /* Center the items horizontally */
-        padding: 0;
+        padding: 18px;
+        justify-content: center;
     }
 
     .nav-list li {
@@ -49,7 +50,7 @@
     }
 
     .nav-list a {
-        font-size: 12px;
+        font-size: 14px;
         text-align: center; /* Decrease font size for smaller screens */
     }
 }
